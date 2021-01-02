@@ -1,0 +1,29 @@
+{
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.rulers": [100],
+  "eslint.autoFixOnSave": true,
+  "explorer.openEditors.visible": 0,
+  "extensions.autoUpdate": true,
+  "files.autoSave": "onFocusChange",
+  "files.eol": "\n",
+  "files.insertFinalNewline": false,
+  "files.exclude": {
+    ".vscode": true,
+    "etc": true,
+    "node*": true,
+    "target": true
+  },
+  "javascript.validate.enable": false,
+  "path-intellisense.mappings": {
+    "app": "src/app",
+    "app/test": "src/test"
+  },
+  "search.exclude": {
+    ".vscode": true,
+    "etc": true,
+    "node*": true,
+    "target": true
+  }
+}

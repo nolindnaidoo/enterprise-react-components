@@ -1,0 +1,46 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# App Build, Test, and Dependencies
+build
+coverage
+storybook-static/
+**/__snapshots__
+test-report.html
+/node_modules
+node_modules
+bower_components
+
+# Environment
+._*
+.DS_Store
+.DS_Store?
+!.env
+.env.*
+.sass-cache
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+npm-debug.*
+Thumbs.db
+yarn-debug.*
+yarn-error.*
+
+# Filetypes
+*.7z
+*.class
+*.com
+*.dll
+*.dmg
+*.exe
+*.gz
+*.iso
+*.jar
+*.log
+*.o
+*.pid
+*.rar
+*.seed
+*.so
+*.tar
+*.tmp
+*.zip

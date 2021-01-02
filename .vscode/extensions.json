@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "christian-kohler.path-intellisense",
+    "dbaeumer.vscode-eslint",
+    "donjayamanne.githistory",
+    "vstirbu.vscode-mermaid-preview",
+    "wayou.vscode-todo-highlight",
+    "emmanuelbeziat.vscode-great-icons",
+    "esbenp.prettier-vscode",
+    "formulahendry.auto-close-tag",
+    "wayou.vscode-todo-highlight",
+    "zhuangtongfa.Material-theme"
+  ]
+}
