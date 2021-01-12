@@ -6,7 +6,7 @@
 
 <h1 align="center">Enterprise React Components</h1>
 
-Enterprise React Components is a library of reusable UI components built with [React 16](https://reactjs.org) and [Semantic UI React](https://react.semantic-ui.com/introduction). Package Management via [Yarn](https://yarnpkg.com/en/). Lint and Beautification handled by [ESLint](https://eslint.org/), [Prettier](https://prettier.io/), and [Airbnb Config](https://www.npmjs.com/package/eslint-config-airbnb). Unit Testing executed by [Jest](https://facebook.github.io/jest/) with [Enzyme](https://github.com/airbnb/enzyme). Seamless Continuous Integration with [Travis-CI](https://travis-ci.com/) and [Github](https://github.com/).
+A Design System / Component Library Template for enabling graphic consistency and legibility across web development projects by creating reusable components and styles with accessible & legible documentation. Built with [React 16](https://reactjs.org) and [Semantic UI React](https://react.semantic-ui.com/introduction). Package Management via [Yarn](https://yarnpkg.com/en/). Lint and Beautification handled by [ESLint](https://eslint.org/), [Prettier](https://prettier.io/), and [Airbnb Config](https://www.npmjs.com/package/eslint-config-airbnb). Unit Testing executed by [Jest](https://facebook.github.io/jest/) with [Enzyme](https://github.com/airbnb/enzyme). Continuous Integration & Deployment with [Travis-CI](https://travis-ci.com/) and [Github](https://github.com/), but can easily be swapped out for any CI/CD system you require.
 
 ### Core Libraries
 
@@ -74,32 +74,32 @@ The Git Feature Branch Workflow is a composable workflow that can be leveraged b
 - Deploy and Test
 - Merge
 
-#### Merging from Master
+#### Merging from Main
 
 A best practice is to perform merging when the working tree is clean. Use caution, first commit any unfinished work still desired, or reset the Git working tree. Choose `> git stash` and save the working tree until ready. Alternatively, reset the working tree. `> git reset --hard`
 
-Staying up-to-date with the latest from `master` is beneficial to parallel development. Remote `master` represents the most stable and approved iteration of the product. In Parallel Development, updates to `master` may affect current implementation. Work with the latest from `master` by merging the latest from `master` into `feature/{name}` as frequently as possible, but only when necessary.
+Staying up-to-date with the latest from `main` is beneficial to parallel development. Remote `main` represents the most stable and approved iteration of the product. In Parallel Development, updates to `main` may affect current implementation. Work with the latest from `main` by merging the latest from `main` into `feature/{name}` as frequently as possible, but only when necessary.
 
-#### Merging from Master Procedure
+#### Merging from Main Procedure
 
 - `> git reset --hard` or `> git stash`
-- `> git checkout master`
+- `> git checkout main`
 - `> git pull`
 - `> git checkout "feature/{name}"`
-- `> git merge master`
+- `> git merge main`
 - No Conflicts: Auto-merge Successful
 - Conflicts: Resolve Conflicts and run:
   - `> git add .`
-  - `> git commit -m "merge master, resolved conflicts"`
+  - `> git commit -m "merge main, resolved conflicts"`
   - `> git push`
 
-#### Merging to Master
+#### Merging to Main
 
-- Make sure your feature branch is not behind the master. You can view it from the [Branch Status](https://github.com/nolindnaidoo/enterprise-react-components/branches) view in the Behind/Ahead column.
+- Make sure your feature branch is not behind the main. You can view it from the [Branch Status](https://github.com/nolindnaidoo/enterprise-react-components/branches) view in the Behind/Ahead column.
 - Verify that your feature branch builds successfully on [TravisCI](https://travis-ci.org/github/nolindnaidoo/enterprise-react-components/branches).
-- Check your coverage against master. The Feature Branch should be greater than or equal to the master.
+- Check your coverage against main. The Feature Branch should be greater than or equal to the main.
 - Resolve or reply to all Pull Request comments.
-- Use the Merge button on the Pull Request to merge back to master.
+- Use the Merge button on the Pull Request to merge back to main.
 - Once the test is successful and no further changes are needed for sign off delete the original feature branch.
 
 ## Unit Testing
